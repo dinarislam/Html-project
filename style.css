@@ -1,0 +1,286 @@
+*{margin:0; padding:0;}
+
+a{
+    text-decoration: none;
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float:right;
+}
+
+
+.fix{
+    overflow:hidden;
+}
+
+
+.container_ful{
+    width: 100%;
+
+}
+
+
+.container{
+    display: block;
+    width:980px;
+    margin:0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:normal;
+}
+
+p{
+    line-height: 150%;
+    margin-bottom:2em;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+<!-----tryprograpy------->
+
+.first_bg{
+    background:#292929; 
+}
+
+
+#header .logo h1{
+    font-family: lato;
+    font-weight: bold;
+    font-size:40px;
+    color:rgb(226, 19, 19);
+    padding-top:30px;
+   
+}
+
+#header nav{
+    float:right;
+    
+}
+
+#header>nav #menu{
+    list-style-type: none;
+   
+}
+
+#header>nav #menu li{
+    float:left;
+    border-right:1px solid #1E1E1E;
+   
+}
+
+#header>nav #menu li:first-child{
+    border-left:1px solid #1E1E1E;
+}
+
+
+
+#header>nav #menu li a{
+   display:block;
+   padding:50px 30px ;
+   font-weight: bold;
+   font-size: 16px;
+   border-bottom:5px solid #1E1E1E;
+}
+
+
+#header>nav #menu li a:hover{
+    border-bottom:5px solid #58C93A;
+    color:#58C93A;
+}
+
+#header>nav #menu li.active a{
+    border-bottom:5px solid #58C93A;
+    color:#58C93A;
+}
+
+.bg_container{
+    border-top:5px solid #1E1E1E;
+    margin-top:-4px;
+    border-bottom: 1px solid #E1E0E0;
+}
+
+
+.content_wrapper{
+    border-left:1px solid #E1E0E0;
+    border-right:1px solid #E1E0E0;
+    padding-top:80px;
+}
+
+.left_content{
+    width:620px;
+    margin-right:60px;
+}
+
+.left_content .single_post_wrapper img{
+    width:620;
+    height:308px;
+}
+
+.left_content .single_post_wrapper{
+    margin-bottom:69px;
+}
+
+.left_content .single_post_wrapper h2{
+    font-weight: bold;
+    color:rgb(121, 122, 122);
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-left: 15px;
+    padding-top:15px;
+}
+
+
+.left_content .single_post_wrapper p{
+    font-weight: bold;
+    color:rgb(121, 122, 122);
+    font-size:16px;
+    padding-left: 15px;
+    padding-top:15px;
+
+}
+
+.left_content .single_post_wrapper .countinue_r{
+    font-size: 16px;
+    color: #666363;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid red;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 15px;
+    
+} 
+
+#sidebar{
+    width:280px;
+    float: right;
+
+}
+#sidebar .single_sidebar{
+    margin-bottom: 40px;;
+}
+
+#sidebar .single_sidebar h2 {
+    font-weight: bold;
+    color: rgb(121, 122, 122);
+    font-size: 16px;
+    border-left: 5px solid green;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 26px;
+    background: #f7f7f7;
+}
+
+
+#sidebar .single_sidebar p{
+    font-weight: bold;
+    color:rgb(121, 122, 122);
+    font-size:16px;
+    padding-left: 15px;
+    padding-top:0px;
+
+}
+
+#sidebar .single_sidebar .search_box{
+    width:280px;
+    height:30px;
+    border:1px solid rgb(121, 122, 122);
+    padding:4px;
+}
+
+.search_email{
+    position: relative;
+}
+
+.search_email input{
+    width:280px;
+    height:53px;
+    border:1px solid red;
+    padding:5px;
+}
+
+
+.search_email input[type="submit"]{
+    float: right;
+    background: url(./img/copy.png) no-repeat;
+    text-indent: -99999999px;
+    width: 24px;
+    height: 24px;
+    top: 21px;
+    position: absolute;
+    border: none;
+    left: 87%;
+    cursor: pointer;
+}
+.single_sidebar input[type="text"],
+.single_sidebar input[type="email"]
+{
+    padding-left:5px;
+
+}
+
+.content_bottom{
+    display:flex;
+    border-top:1px solid #E1E0E0; 
+    border-left:1px solid #E1E0E0; 
+    border-right:1px solid #E1E0E0; 
+    padding: 17px 17px;
+    justify-content:space-between;
+   
+}
+
+.previous{
+    
+    font-size: 25px;
+}
+
+.Next{
+    
+    font-size: 25px;
+}
+#footer{
+  
+    display: flex;
+    background: #292929;
+    padding:10px 10px;
+    flex-flow: column wrap;
+   align-content: center;
+   
+}
+
+.first_footer h2{
+    font-size: 20;
+    font-weight: 500;
+    color:aliceblue;
+}
+
+.first_footer p{
+    font-size: 16;
+    font-weight: 400;
+    color:aliceblue;
+    align-items: flex-start;
+    display: flex;
+}
+
+.social_area i{
+   
+    padding:10px 10px;
+    
+}
+
+.social_area i:hover{
+    color:aliceblue;
+   background: #58C93A;
+}
